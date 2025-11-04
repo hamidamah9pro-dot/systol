@@ -76,6 +76,9 @@ header .navbar{
     color: white;
     padding-bottom: 1%;
 }
+.terre:hover, .terre2:hover{
+    animation: 2s anim-div;
+}
 @keyframes anim-div {
     0%{transform: scale(0.5);}
     100%{transform: scale(1);}
