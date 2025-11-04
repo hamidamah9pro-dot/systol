@@ -10,7 +10,7 @@ header{
     padding: 1%;
     justify-content: center;
     position: fixed;
-    left: 24%;
+    left: 19%;
     z-index: 10;
 }
 header .navbar{
@@ -74,15 +74,11 @@ header .navbar{
     justify-content: space-evenly;
     flex-direction: row-reverse;
     color: white;
-    padding-bottom: 12%;
+    padding-bottom: 1%;
 }
-.terre img:hover{
-    transform: translateX(-300px);
-    transition: 2s;
-}
-.terre2 img:hover{
-    transform: translateX(300px);
-    transition: 2s;
+@keyframes anim-div {
+    0%{transform: scale(0.5);}
+    100%{transform: scale(1);}
 }
 .terre2{
     background-color: rgb(30, 47, 57);
@@ -92,10 +88,10 @@ header .navbar{
     justify-content: space-evenly;
     flex-direction: row;
     color: white;
-    padding-bottom: 12%;
+    padding-bottom: 1%;
 }
 .t-cont{
-    margin-top: 13%;
+    margin-top: 2%;
     width: 30rem;
     height: 20vh;
     padding: 4%;
@@ -103,17 +99,17 @@ header .navbar{
 .t-cont h1{
     font-size: 5rem;
 }
+.t-cont p{
+    font-size: 2rem;
+}
 .terre img{
     width: 28rem;
     margin: 2%;
-    position: absolute;
-    transition: transform 1s;
+    
 }
 .terre2 img{
     width: 27rem;
     margin: 2%;
-    position: absolute;
-    transition: transform 1s;
 }
 footer{
     background-color: #1e1e1e;
